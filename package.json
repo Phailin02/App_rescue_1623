@@ -1,0 +1,39 @@
+{
+  "name": "admin-rescue",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:prettier",
+    "lintfix": "prettier --write --list-different ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "core-js": "^3.25.3",
+    "crypto-js": "^4.2.0",
+    "moment": "^2.29.4",
+    "nuxt": "^2.17.3",
+    "nuxt-sweetalert2": "^1.0.0",
+    "secure-web-storage": "^1.0.2",
+    "sweetalert2": "^11.10.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "vue2-google-maps": "^0.10.7",
+    "vuetify": "^2.6.10",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.3",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  },
+  "overrides": {
+    "webpack-dev-middleware": "5.0.0"
+  }
+}
